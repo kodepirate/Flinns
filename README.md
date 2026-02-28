@@ -1,16 +1,62 @@
-# React + Vite
+# Flinns NFT 🌊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, highly interactive, deep-sea themed single-page web application for the Flinns NFT collection. 
+The site is designed to immerse users in a "diving experience" utilizing advanced CSS styling and fluid 3D animations.
 
-Currently, two official plugins are available:
+![Flinns Preview](public/vite.svg) (*Add a project screenshot here*)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Key Features
 
-## React Compiler
+*   **Seamless Deep-Sea Descent:** Perfectly blended vertical gradients across all sections, creating an uninterrupted visual journey from the ocean surface down to the trench floor.
+*   **3D Interactive Hover Physics:** Custom glassmorphic cards and elements that track mouse movement in 3D space, tilting and glowing dynamically.
+*   **High Performance:** Aggressively optimized for speed. Utilizes React `Suspense` and `lazy` loading for code-splitting, offloading secondary visual components to reduce initial main-thread blocking. Layout recalculation loops (forced reflows) have been eliminated through bounding-box caching.
+*   **Scroll-Driven Animations:** A central roadmap timeline that organically "fills" and animates as the user scrolls down the page.
+*   **Fully Responsive:** Thoughtfully adapted for mobile, tablet, and desktop viewing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **Framework:** React + Vite
+*   **Styling:** Tailwind CSS (v3) + Vanilla CSS (for complex dynamic gradients)
+*   **Animations:** Framer Motion (for physics, scroll monitoring, and complex state transitions)
+*   **Icons:** Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have Node.js installed on your machine.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/kodepirate/Flinns.git
+    cd Flinns
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open your browser and navigate to `http://localhost:5173` to see the site in action.
+
+### Production Build
+
+To test the highly-optimized production build (for measuring true Lighthouse performance scores):
+
+1.  **Build the project:**
+    ```bash
+    npm run build
+    ```
+
+2.  **Preview the production build:**
+    ```bash
+    npm run preview
+    ```
+    
+## 📝 License
+This project is for the Flinns NFT collection.
