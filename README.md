@@ -60,3 +60,6 @@ To test the highly-optimized production build (for measuring true Lighthouse per
     
 ## 📝 License
 This project is for the Flinns NFT collection.
+
+---
+*Created by [aniket0fficial](https://github.com/aniket0fficial)*
