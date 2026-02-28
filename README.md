@@ -3,7 +3,7 @@
 A premium, highly interactive, deep-sea themed single-page web application for the Flinns NFT collection. 
 The site is designed to immerse users in a "diving experience" utilizing advanced CSS styling and fluid 3D animations.
 
-![Flinns Preview](public/vite.svg) (*Add a project screenshot here*)
+![Flinns Preview](public/vite.svg) 
 
 ## 🌟 Key Features
 
